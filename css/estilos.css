@@ -1,0 +1,33 @@
+table{
+    width: 100%;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;/*Se usa este para colapsar los bordes o el border-spacing*/
+    padding: 5px;
+    /*border-spacing: 5px;*/
+}
+caption{
+    color: blueviolet;
+    font-family: "trocchi", serif;
+    font-size: 45px;
+    line-height: 70px;
+}
+
+
+/*td{
+    text-align: center;
+}*/
+th{
+    /*text-align: left;*/
+    color: beige;
+    background-color: #1d3557;
+}
+/*Renglones pares*/
+tr:nth-child(even){
+    background-color: #f1faee;
+}
+/*Renglones impares*/
+tr:nth-child(odd){
+    background-color: #a8dadc;
+}
